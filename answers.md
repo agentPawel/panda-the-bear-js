@@ -27,3 +27,9 @@
 12. $('#email').attr('placeholder', 'koalathebear@gmail.com')
 
 13. $('#submit').attr('value', 'En Garde')
+
+Adding Elements to DOM
+
+1. $('#right-image img').clone().appendTo('form')
+
+2. for (i = 0; i < 10; i++) { $('#right-image img').clone().appendTo('form'); }
